@@ -7,3 +7,5 @@ export PATH=$RISCV/bin:$PATH
 echo $RISCV
 echo $PATH
 mv /ucore/mk/mtrap.c /riscv-pk/machine/mtrap.c
+ls $RISCV/bin
+riscv32-unknown-elf-gcc
