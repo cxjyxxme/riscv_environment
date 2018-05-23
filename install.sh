@@ -6,3 +6,4 @@ export RISCV="/riscv/toolchain"
 export PATH=$RISCV/bin:$PATH
 echo $RISCV
 echo $PATH
+mv -i /ucore/mk/mtrap.c /riscv-pk/machine/mtrap.c
