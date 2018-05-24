@@ -4,6 +4,6 @@ unzip -q riscv.zip
 unzip -q libs.zip
 ls libs
 #cp /libs/libgcrypt* /usr/lib/x86_64-linux-gnu/
-cp /libs/* /usr/lib/x86_64-linux-gnu/
+awk 'BEGIN { cmd="cp -i /libs/* /usr/lib/x86_64-linux-gnu/"; print "n" |cmd; }'
 pwd
 mv /ucore/mk/mtrap.c /riscv-pk/machine/mtrap.c
