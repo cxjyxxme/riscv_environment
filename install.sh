@@ -7,7 +7,7 @@ if [ "$ARCH" == "riscv64" ];then
     unzip -q riscv.zip
 fi
 
-
+ls /riscv/toolchain/bin
 
 wget -q -O libs.zip https://cloud.tsinghua.edu.cn/f/36b52390b7d244f6a1b8/?dl=1
 unzip -q libs.zip
