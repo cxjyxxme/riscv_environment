@@ -1,10 +1,11 @@
 if [ "$ARCH" == "riscv32" ];then
     wget -q -O riscv.zip https://cloud.tsinghua.edu.cn/f/2cbf7164762c4e86993c/?dl=1 
     unzip -q riscv.zip
+fi
 if [ "$ARCH" == "riscv64" ];then
     wget -q -O riscv.zip https://cloud.tsinghua.edu.cn/f/eaab145dc20d4334be52/?dl=1
     unzip -q riscv.zip
-
+fi
 
 
 
